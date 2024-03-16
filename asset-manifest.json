@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio/static/css/main.9771bce6.css",
+    "main.js": "/MyPortfolio/static/js/main.6e8602f6.js",
+    "static/media/portfolio-6.png": "/MyPortfolio/static/media/portfolio-6.4a10fac7d271e87859e9.png",
+    "static/media/portfolio-2.png": "/MyPortfolio/static/media/portfolio-2.33d06b368b4e6395030e.png",
+    "static/media/portfolio-4.png": "/MyPortfolio/static/media/portfolio-4.8e8bac5e33dc3f211e2b.png",
+    "static/media/portfolio-1.png": "/MyPortfolio/static/media/portfolio-1.b33adf772d54ab33e953.png",
+    "static/media/vishnu.jpg": "/MyPortfolio/static/media/vishnu.a59e9e21f563404497b4.jpg",
+    "static/media/portfolio-5.png": "/MyPortfolio/static/media/portfolio-5.bf754db8618dd60ec6f1.png",
+    "static/media/portfolio-3.png": "/MyPortfolio/static/media/portfolio-3.ca4192894d93b08ad3b5.png",
+    "static/media/logo.png": "/MyPortfolio/static/media/logo.4351bbdcac07031ec06a.png",
+    "static/media/SDevop.png": "/MyPortfolio/static/media/SDevop.8ccb181e39e424b37c00.png",
+    "static/media/sql.png": "/MyPortfolio/static/media/sql.6ac8f8b136b167811122.png",
+    "static/media/github1.png": "/MyPortfolio/static/media/github1.b6522b6abf666caccef7.png",
+    "static/media/ui-design.png": "/MyPortfolio/static/media/ui-design.c4acd455fc2040eddcc8.png",
+    "static/media/instagram.png": "/MyPortfolio/static/media/instagram.0bcd1dcb7d853c327af7.png",
+    "index.html": "/MyPortfolio/index.html",
+    "main.9771bce6.css.map": "/MyPortfolio/static/css/main.9771bce6.css.map",
+    "main.6e8602f6.js.map": "/MyPortfolio/static/js/main.6e8602f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9771bce6.css",
+    "static/js/main.6e8602f6.js"
+  ]
+}
