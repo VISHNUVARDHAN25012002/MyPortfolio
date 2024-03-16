@@ -4,15 +4,17 @@ import Skills from "./components/Skills/skills";
 import Works from "./components/Works/works";
 import Contact from "./components/contact/contact";
 import Footer from "./components/Footer/footer";
+import {  HashRouter } from "react-router-dom";
 function App() {
   return (
     <div className="App">
+      <HashRouter>
      <Navbar/>
      <Intro/>  
      <Skills/>
      <Works/>
      <Contact/>
-     <Footer/>
+     <Footer/></HashRouter>
     </div>
   );
 }
