@@ -1,4 +1,4 @@
-#skills{
+#skills {
     overflow: hidden;
     width: 100vw;
     max-width: 65rem;
@@ -9,65 +9,68 @@
     justify-content: center;
     text-align: center;
 }
+
 .skillTitle {
     font-size: 3rem;
     font-weight: 600;
     padding-top: 3rem;
     margin-bottom: 1.5rem;
 }
-.skillDesc{
+
+.skillDesc {
     font-weight: 300;
-    font-size: 1 rem;
+    font-size: 1rem;
     max-width: 50rem;
     padding: 0 2rem;
-
 }
-.skillBars{
+
+.skillBars {
     margin: 1.5rem;
     width: 100vw;
     max-width: 80%;
     text-align: left;
-
 }
-.skillBar{
+
+.skillBar {
     display: flex;
     margin: 1rem;
     padding: 1.5rem 2rem;
     border-radius: 0.5rem;
-    background: rgb(50,50,50);
+    background: rgb(50, 50, 50);
 }
-.skillBarImg{
+
+.skillBarImg {
     object-fit: cover;
     height: 6rem;
-    width: 6 rem;
+    width: 6rem; /* Removed the space between value and unit identifier */
     margin: 2rem;
-    
 }
-.skillBarText{
+
+.skillBarText {
     margin: 2rem;
     font-size: 0.9rem;
     font-weight: 200;
-    
-}.skillBarText1{
+}
+
+.skillBarText1 {
     margin: 2rem;
     font-size: 0.9rem;
     font-weight: 200;
     padding: 2rem;
-    
 }
-@media screen and (max-width:540px) {
-    .skillBarText>p{
+
+@media screen and (max-width: 540px) {
+    .skillBarText > p {
         font-size: 4vw;
     }
-    .skillBarImg{
+    .skillBarImg {
         height: 5.25rem;
         width: 5.25rem;
     }
-    .skillBarText1>h2{
+    .skillBarText1 > h2 {
         font-size: 5vw;
     }
-    .skillBarText>h2{
+    .skillBarText > h2 {
         font-size: 5vw;
     }
-    
 }
