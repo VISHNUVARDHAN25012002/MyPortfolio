@@ -1,7 +1,5 @@
 #works{
     margin: 0 auto;
-    min-height: calc(100vh-4rem);
-    width: 100vw;
     max-width: 60rem;
     display: flex;
     flex-direction: column;
@@ -23,10 +21,8 @@
 .worksImgs{
    display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: center;
     flex-wrap: wrap;
-    width: 100vw;
-    max-width: 61rem;
 }
 .worksImg{
     object-fit: cover;
@@ -36,12 +32,11 @@
     
 }
  .workBtn{
-    
     margin: 3rem 0;
     padding: 0.5rem 2.5rem;
     border:none;
     border-radius: 2rem;
-    background: white;
+    background: #f1f1f1;
     font-size: 1rem;
 } 
 @media screen and (max-width:580px) {

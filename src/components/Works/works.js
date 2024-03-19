@@ -8,6 +8,7 @@ import portfolio5 from '../../assets/portfolio-5.png';
 import portfolio6 from '../../assets/portfolio-6.png';
 const works =()=>{
     return(
+        <div class="container">
     <section id="works">
         <h2 className="workstittle">My Portfolio</h2>
         <span className="workDesc"> I take pride in paying attention to the smallest details and making sure that my work is pixel perfect.I am exited to bring my skills and experience to help bussiness achive their goals and create a strong online presence</span>
@@ -21,6 +22,7 @@ const works =()=>{
         </div>
          <button className="workBtn"> See More</button> 
     </section>
+    </div>
     )
 }
 export default works

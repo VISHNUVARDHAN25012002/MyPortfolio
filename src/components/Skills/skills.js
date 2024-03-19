@@ -6,6 +6,7 @@ import SQL from '../../assets/sql.png';
 
 const Skills =()=>{
     return(
+        <div class="container">
         <section id='skills'>
            <span className="skillTitle">What I do</span>
            <span className="skillDesc">To secure a position as a Fullstack Java Developer where i can utilize my
@@ -34,7 +35,8 @@ const Skills =()=>{
                                                 </div>
                                             </div>
                                         </div>
-                                                </section>
+         </section>
+         </div>
     )
 }
 export default Skills;

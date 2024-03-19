@@ -6,7 +6,10 @@ import {Link} from 'react-scroll';
 
 const Intro =()=>{
     return(
+    <div class="container">
         <section id="intro">
+            <div class="row justify-content-center">
+            <div class="col-lg-4 col-12">
             <div className="introContent">
                
                 <span className="hello">Hello,</span>
@@ -18,10 +21,13 @@ const Intro =()=>{
                <Link><button className="btn"><img src={btnImg}alt="Hire Me" className="btnImg"/>Hire Me</button></Link>
             
             </div>
-         
+            </div>
+            <div class="col-md-8 col-12">
             <img src={bg} alt="profile" className="bg"/>
-        
+            </div>
+         </div>
         </section>
+        </div>
       
     )
 }
